@@ -1,0 +1,45 @@
+#name {
+  position: relative !important;
+  bottom: 600px !important;
+}
+#about {
+  background-image: url(../images/dust_scratches.png);
+  margin-top: -5px;
+  height: 600px !important;
+}
+#stars {
+  height: 825px !important;
+}
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+#menuBtn {
+  position: sticky !important;
+  top: 20px !important;
+  margin-left: 20px !important;
+  margin-top: -30px !important;
+}
+footer {
+  margin-top: -30px !important;
+  border-top: rgb(42, 76, 121);
+  border-top-width: 5px;
+  border-top-style: double;
+}
+#menuMedia {
+  font-size: 30px !important;
+}
+#portfolio {
+  height: 1300px;
+  width: 100%;
+  background-color: rgb(42, 76, 121);
+  margin-top: -25px;
+}
+#contact {
+  background-image: url(../images/contact.jpg);
+}

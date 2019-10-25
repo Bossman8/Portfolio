@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <title>Boston Jones</title>
+  </head>
+  <body>
+    <!-- sidenav -->
+    <ul id="slide-out" class="sidenav grey" id="top">
+      <li>
+        <div class="user-view">
+          <h3>Boston Jones Portfolio</h3>
+          <a href="#top"><span class="white-text name">Home </span></a>
+          <a href="#about"><span class="white-text name">About Me</span></a>
+          <a href="#portfolio"
+            ><span class="white-text name">Portfolio</span></a
+          >
+          <a href="#contact"><span class="white-text name">Contact Me</span></a>
+          <a
+            class="waves-effect waves-light modal-trigger white-text"
+            href="#modal1"
+            id="resume"
+            >Resume</a
+          >
+          <a href="#email"
+            ><span class="white-text email">jones.boston8@gmail.com</span></a
+          >
+        </div>
+      </li>
+      <hr style="width: 80%;" />
+      <div id="menuMedia">
+        <a
+          target="_blank"
+          href="https://www.facebook.com/boston.jones.77"
+          style="color: black; margin: 5px; margin-left: 25%;"
+          class="fa fa-facebook-square"
+        ></a>
+        <a
+          target="_blank"
+          href="https://github.com/Bossman8"
+          style="color: black; margin: 5px;"
+          class="fa fa-github"
+        ></a>
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/boston-jones-84303489/"
+          style="color: black; margin: 5px;"
+          class="fa fa-linkedin-square"
+        ></a>
+        <a
+          target="_blank"
+          href="https://twitter.com/BostonJones7"
+          style="color: black; margin: 5px;"
+          class="fa fa-twitter-square"
+        ></a>
+      </div>
+    </ul>
+
+    <!-- modal -->
+    <div id="modal1" class="modal">
+      <div class="modal-content" id="modal">
+        <iframe
+          src="https://cdn.flipsnack.com/widget/v2/widget.html?hash=fv1jyjmug"
+          width="100%"
+          height="480"
+          seamless="seamless"
+          scrolling="no"
+          frameBorder="0"
+          allowFullScreen
+        ></iframe>
+      </div>
+    </div>
+
+    <!-- menu button -->
+    <a
+      href="#"
+      data-target="slide-out"
+      id="menuBtn"
+      class="sidenav-trigger left"
+      ><i class="material-icons">menu </i></a
+    >
+    <div class="col s12 12">
+      <img
+        src="./assets/images/stars.jpg"
+        alt=""
+        style="width: 102%;;"
+        class="responsive-img"
+        id="stars"
+      />
+    </div>
+    <div class="row" id="main">
+      <div class="col s12 14 offset-11" id="about">
+        <h1 class="white-text center" id="name">Boston Jones</h1>
+        <h5 id="name" class="center white-text">
+          I am a Fullstack Developer from St. George, Utah. I enjoy creating
+          neat and user-friendly applications.
+        </h5>
+        <a
+          href="#modal1"
+          class="center btn white-text grey modal-trigger"
+          style="left: 45%; margin-top: 10px !important; opacity: .8;"
+          id="name"
+          >Resume</a
+        >
+
+        <div class="center" style="top: -200px !important; position: relative;">
+          <h2>About Me</h2>
+          <img
+            src="./assets/images/profile.jpeg"
+            alt=""
+            class="circle"
+            style="height: 120px; top: -50px;"
+          />
+          <div
+            class="center"
+            style="width: 80%; position: relative; left: 10%;"
+          >
+            <h5>
+              I'm self taught Web Developer with some professional tutoring. I
+              love building user-friendly software that is helpful to others. I
+              am a fullstack developer with skills in Python, JavaScript, Node,
+              Express, mySQL and of course HTML & CSS.
+            </h5>
+            <hr />
+            <h5>
+              I am excited to continue my Web Development career.
+            </h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="portfolio">
+      <h3 class="center white-text" style="font-family: cursive; opacity: .5;">
+        Portfolio
+      </h3>
+      <div></div>
+      <h2 class="center white-text">Checkout some of my recent work!</h2>
+      <hr style="width: 80%" ; />
+      <div id="recentWork">
+        <div class="row center">
+          <div class="col 12 offset-3" style="margin-top: 60px;">
+            <img
+              src="./assets/images/directNew.png"
+              alt=""
+              style="height: 300px; margin: 5px;"
+            />
+            <img
+              src="./assets/images/friendfinder.png"
+              alt=""
+              style="height: 500px; margin: 5px;"
+            />
+            <img
+              src="./assets/images/jdfitnesspal.png"
+              alt=""
+              style="height: 350px; margin: 5px;"
+            />
+            <img
+              src="./assets/images/jonesGames.png"
+              alt=""
+              style="height: 350px; margin: 5px;"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="center" id="contact">
+      <h2 class="center white-text">Contact</h2>
+      <hr class="center" style="width: 30%;" />
+      <div class="container white" style="opacity: .6; margin-bottom: 100px;">
+        <div>
+          <form action="https://formspree.io/xyygwkvg" method="POST">
+            <label class="black-text" for="lname">Name</label>
+            <input class="center" type="text" id="fullName" name="name" />
+
+            <label class="black-text" for="email">Your Email</label>
+            <input class="center" type="email" id="email" name="replyto" />
+
+            <label class="black-text" for="lname">Subject</label>
+            <input class="center" type="text" id="subject" name="subject" />
+
+            <label class="black-text" for="subject">Message</label>
+            <textarea
+              id="subject"
+              name="message"
+              style="height:200px;"
+            ></textarea>
+
+            <input
+              class="black white-text"
+              type="submit"
+              name="submit"
+              value="Send"
+            />
+            <input
+              class="black white-text"
+              type="reset"
+              name="reset"
+              value="Reset"
+              onclick="return resetForm(this.form);"
+            />
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="page-footer black">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h4 class="white-text">Boston Jones</h4>
+            <hr class="grey" />
+            <p class="grey-text">Email: jones.boston8@gmail.com</p>
+            <p class="grey-text">Phone: 435-525-7255</p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Find Me On:</h5>
+            <ul>
+              <li>
+                <a
+                  target="_blank"
+                  class="grey-text text-lighten-3"
+                  href="https://www.facebook.com/boston.jones.77"
+                  >Facebook</a
+                >
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  class="grey-text text-lighten-3"
+                  href="https://www.linkedin.com/in/boston-jones-84303489/"
+                  >LinkedIn</a
+                >
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  class="grey-text text-lighten-3"
+                  href="https://twitter.com/BostonJones7"
+                  >Twitter</a
+                >
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  class="grey-text text-lighten-3"
+                  href="https://github.com/Bossman8"
+                  >GitHub</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container"></div>
+      </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $(".parallax").parallax();
+        $(".sidenav").sidenav();
+        $(".modal").modal();
+      });
+    </script>
+  </body>
+</html>
